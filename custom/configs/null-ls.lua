@@ -21,6 +21,9 @@ local sources = {
 
   -- lint
   b.diagnostics.eslint_d,
+
+  -- eslint_d actions
+  b.code_actions.eslint_d,
 }
 
 null_ls.setup {
